@@ -1,0 +1,85 @@
+*{
+  margin:0 auto;
+  padding:0;
+  box-sizing:border-box;
+}
+html,body{
+  margin:0;
+  height:100%;
+  overflow:hidden;
+}
+.main-body{
+  border:2px solid rgb(36, 240, 240);
+  margin:1em auto;
+  padding:1em;
+  width:80%;
+  background-color: #a6d5ea;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+  /* border-radius:10%; */
+}
+.image-display{
+  /* border:2px solid blue; */
+  margin:.3em;
+  padding:.3em;
+  display:flex;
+}
+.image-fig{
+  width:80%;
+  /* border-radius:10%; */
+  border:10px solid rgb(36, 240, 240);
+}
+.profile-pic{
+  display:block;
+  width:100%;
+}
+.image-decor{
+  background-color:red;
+  padding:2em;
+  flex-basis: 90%;
+  display:none;
+}
+.image-details{
+  /* border:2px solid green; */
+  text-align:justify;
+  border:2px solid rgb(36, 240, 240);
+  padding:1em;
+  background-color: white;
+}
+.image-details,p{
+  padding:.2em;
+  font-family: "Roboto", serif;
+  font-size:1.1rem;
+}
+ul{
+  display:flex;
+}
+
+li{
+  text-decoration:none;
+  list-style-type:none;
+}
+a{
+  text-decoration: none;
+}
+.fi{
+  font-size:2rem;
+  color: rgb(0, 112, 112);
+}
+#current-time{
+  font-size:1.4rem;
+  padding:.1em;
+}
+
+@media (min-width : 760px){
+  .main-body{
+    display:flex;
+    justify-content: space-between;
+    
+  }
+  .image-fig{
+    width:100%;
+  }
+  .image-details,p{
+    max-width:70%;
+  }
+}
